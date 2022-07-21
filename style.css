@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&family=Roboto+Slab:wght@300;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: 'Montserrat', cursive;
+	background-image: url(assets/img/sky.jpg);
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 4rem;
+}
+h2{
+	font-family: 'Lobster', sans-serif;
+}
+.nav-header {
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #ffffffcc;
+}
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+li{
+	list-style: none;
+}
+li a{
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#hero{
+	padding: 80px 30px;
+	background-image: url(assets/img/christVert.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #00000099;
+	background-blend-mode: color;
+	min-height: 700px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+#hero .left-hero{
+	width: 50%;
+}
+.left-hero p{
+	font-size: 2rem;
+}
+#music{
+	
+	padding: 80px 30px;
+	text-align: center;
+}
+.lyrics{
+	margin: 30px 0px;
+}
+
+footer {
+	margin-top: 80px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+audio{
+	border-style: solid;
+	border-color: #000000;
+	border-width: 10px;
+}

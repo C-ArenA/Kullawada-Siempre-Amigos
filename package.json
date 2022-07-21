@@ -1,0 +1,19 @@
+{
+  "name": "kullawada-siempre-amigos",
+  "version": "1.0.0",
+  "description": "Sitio web de la kullawada Siempre Amigos de Obrajes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-ArenA/Kullawada-Siempre-Amigos.git"
+  },
+  "author": "Carlos Arena <carlostata.ca@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/C-ArenA/Kullawada-Siempre-Amigos/issues"
+  },
+  "homepage": "https://github.com/C-ArenA/Kullawada-Siempre-Amigos#readme"
+}
