@@ -47,7 +47,7 @@ li a{
 	background-position: center;
 	background-color: #00000099;
 	background-blend-mode: color;
-	min-height: 700px;
+	min-height: 100vh;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -59,9 +59,13 @@ li a{
 	font-size: 2rem;
 }
 #music{
-	
+	height: 100vh;
 	padding: 80px 30px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .lyrics{
 	margin: 30px 0px;
@@ -72,10 +76,37 @@ footer {
 	background-color: white;
 	padding: 20px;
 	text-align: center;
+
 }
 
 audio{
 	border-style: solid;
 	border-color: #000000;
 	border-width: 10px;
+	max-width: 500px;
+}
+
+#video{
+	text-align: center;
+	height: 90vh;
+	padding: 100px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#video h2{
+	margin: 50px;
+	
+}
+iframe{
+	min-width: 70vw;
+	min-height: 70vh;
+}
+@media (max-width:700px){
+
+	iframe{
+		width: 100vw;
+		min-height: auto;
+	}
 }
